@@ -1,0 +1,207 @@
+@media screen  and (max-width: 1200px){
+    .blog-body img {
+        height: 200px;
+        margin-bottom: 25px;
+    }
+    .blog-body img:last-child {
+        height: 200px;
+    }
+    .cupon1 h2{
+        font-size: 20px;
+    }
+}
+@media screen  and (max-width: 1024px){
+    .blog-body{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .blog-body img {
+        width: 40%;
+        height: 250px;
+        margin: 0 25px 25px;
+    }
+    .blog-body img:last-child {
+        width: 80%;
+        height: 250px;
+    }
+    .order{
+        flex-wrap: wrap;
+        margin: 0 auto 100px;
+    }
+    .order-left{
+        margin-bottom: 30px;
+    }
+    .order-right{
+        padding-bottom: 30px;
+    }
+    .parfum-right-footer-head{
+        flex-wrap: wrap;
+    }
+    .cupon1{
+        background: 0;
+    }
+    .cupon1-line{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cupon1-line img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 800px){
+    .parfum-right-head-line {
+        flex-wrap: wrap;
+        align-content: normal;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .parfum-right-head-line p {
+        padding-bottom: 0;
+        padding-right: 15px;
+    }
+    .combo-text button {
+        width: 150px;
+    }
+    .parfum-right-head-divs{
+        justify-content: normal;
+    }
+    .parfum-right-head-divs div {
+        padding-right: 5px;
+        padding-bottom: 7px;
+    }
+    .parfum-left{
+        display: none;
+    }
+    .cupon1 h2 {
+        font-size: 16px;
+    }
+    .recommend-line{
+        flex-wrap: wrap;
+    }
+    .recommend-line>p{
+        display: none;
+    }
+    .perfume-section{
+        width: 40%;
+    }
+    .perfume-section-head{
+        display: none;
+    }
+    .combo-line{
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .combo-images{
+        margin-bottom: 25px;
+    }
+    .combo-text button {
+         width: auto;
+        padding: 10px;
+    }
+    .parfum-right-head-divs {
+        display: none;
+    }
+    .parfum-info-head{
+        display: none;
+    }
+    .parfum-info-head-phone{
+        font-family: Montserrat;
+        font-size: 13px;
+        line-height: 16px;
+        color: #222222;
+        padding: 15px 0;
+        border-top: 1px solid #D6D6D7;
+        border-bottom: 1px solid #D6D6D7;
+    }
+    .parfum-line{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .recommend-line {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .perfume-section {
+        width: 80%;
+        padding-right: 25px;
+    }
+
+    .reviews-line {
+        align-items: flex-start;
+    }
+
+    .reviews-section-head {
+        flex-wrap: wrap;
+    }
+
+    .blog-body img {
+        width: 80%;
+    }
+
+    .combo-images {
+        margin-right: 0;
+    }
+
+    .combo-images p {
+        padding: 0 10px;
+    }
+
+    .order-left-text input {
+        width: 100%;
+    }
+
+    .order-left-text button {
+        width: 100%;
+    }
+}
+@media screen  and (max-width: 420px){
+    .reviews-head div {
+        font-size: 12px;
+    }
+    .reviews-head div span{
+        padding-left: 10px;
+    }
+    .reviews-section h3 {
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    .reviews-section-head div,p {
+        font-size: 12px;
+     }
+    .order-left-text h3, .order-right div {
+        font-size: 16px;
+    }
+    .order-left-text p, .order-right p {
+        font-size: 12px;
+    }
+    .blog-body img {
+        height: 200px
+    }
+    .blog-body img:last-child {
+        height: 200px;
+    }
+    .parfum-right-head-line p {
+        padding-bottom: 10px;
+    }
+    .parfum-right-footer-head h3 {
+        padding-bottom: 10px;
+    }
+    .parfum-right-footer>p {
+        padding-top: 10px;
+    }
+    .parfum-right-footer-button{
+        flex-direction: column;
+    }
+    .parfum-right-footer-button button{
+        margin-bottom: 10px
+    }
+    .parfum-right-footer-button p {
+        text-align: center;
+    }
+}

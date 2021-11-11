@@ -1,0 +1,797 @@
+.parfum-info{
+    width: 80%;
+    margin: auto;
+}
+.parfum-info-head{
+    padding-top: 8px;
+    padding-bottom: 26px;
+}
+.parfum-info-head p{
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 15px;
+    color: #929292;
+    padding-top: 9px;
+}
+.parfum-line{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D6D6D7;
+}
+.parfum-left{
+    display: flex;
+    flex-direction: column;
+}
+.parfum-left-img {
+    width: 46px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parfum-left-img:hover {
+    border: 1px solid #FD8006;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.parfum-left-img img{
+    width: 22px;
+    height: 39px;
+}
+.parfum-center{
+    display: flex;
+    align-items: center;
+    margin-right: 48px;
+}
+.parfum-center button{
+    width: 40px;
+    height: 76px;
+    margin-left: 16px;
+    background: 0;
+    border: 0;
+}
+.parfum-center button:hover{
+    background: #EBEBEB;
+}
+.parfum-center-img{
+    width: 164px;
+    height: 227px;
+}
+.parfum-right{
+    width: 70%;
+}
+.parfum-right-head h3{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 40px;
+    color: #222222;
+}
+.parfum-right-head-line{
+    display: flex;
+    justify-content: space-between;
+}
+.parfum-right-head-line p{
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 16px;
+    color: #222222;
+    padding-bottom: 13px;
+}
+.parfum-img{
+    width: 100px;
+    height: 24px;
+    display: flex;
+}
+.parfum-img img{
+    padding-left: 15px;
+}
+.parfum-right-head-divs{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #222222;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 17px;
+    border-bottom:1px solid #D6D6D7;
+    padding-top: 19px;
+    flex-wrap: wrap;
+}
+.parfum-right-head-divs div{
+    border-right:1px solid #b5b5b8;;
+    padding-right: 20px;
+    padding-bottom: 7px;
+}
+.parfum-right-head-divs div:last-child{
+    border-right:0;
+    padding-right: 0;
+}
+.parfum-right-head  p div:hover{
+    color: #FD8006;
+}
+.parfum-right-footer-head{
+    display: flex;
+    align-items: center;
+    padding-top: 23px;
+}
+.parfum-right-footer-head h3{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #222222;
+}
+.parfum-right-footer-head h4{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 17px;
+    color: #FD8006;
+    text-decoration-line: line-through;
+}
+.parfum-right-footer-head div{
+    background: rgb(253 128 6 / 20%);
+    border-radius: 1px;
+    margin-left: 17px;
+}
+.parfum-right-footer-head div span{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FD8006;
+}
+.parfum-right-footer-head p{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FD8006;
+    padding-left: 17px;
+}
+.parfum-right-footer>p{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+    color: #222222;
+}
+.parfum-right-footer>p>span{
+    text-decoration-line: underline;
+    color: #FD8006;
+}
+.parfum-right-footer-button{
+    display: flex;
+    margin-top: 17px;
+    margin-bottom: 23px;
+}
+.parfum-right-footer-button button{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%);
+    box-shadow: 0 4px 13px rgba(255, 126, 0, 0.6);
+    border-radius: 2px;
+    width: 233px;
+    height: 55px;
+    margin-right: 23px;
+}
+.parfum-right-footer-button p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #222222;
+}
+.parfum-right-footer>h4{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F61C0D;
+    margin-bottom: 33px;
+}
+.smell{
+    width: 80%;
+    margin: auto ;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #D6D6D7;
+}
+.smell h3{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #222222;
+}
+.smell p{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 32px;
+    color: #7A7A7A;
+    padding-top: 15px;
+    padding-left: 16px;
+}
+.smell span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    color: #222222;
+    padding-left: 72px;
+}
+.smell>div{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #222222;
+    padding-top: 25px;
+}
+.smell>div:hover{
+    color: #666666;
+}
+.combo{
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid #D6D6D7;
+}
+.combo>h3{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 33px;
+    color: #222222;
+    padding-top: 28px;
+    padding-bottom: 38px;
+}
+.combo-line{
+    display: flex;
+    margin-bottom: 34px;
+}
+.combo-images{
+    display: flex;
+    align-items: center;
+    margin-right: 66px;
+}
+.combo-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.combo-image  img{
+    width: 77px;
+    padding-bottom: 10px;
+}
+.combo-images p{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #222222;
+    padding: 0 50px;
+}
+.combo-image:last-child img{
+    width: 137px;
+    padding-bottom: 0;
+}
+.combo-image h4{
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 18px;
+    color: #222222;
+    padding-top: 10px;
+}
+.combo-image h4:hover{
+    text-decoration-line: underline;
+    color: #FD8006;
+}
+.combo-text h3{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 33px;
+    color: #222222;
+    padding-bottom: 13px;
+}
+.combo-text h3 span{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FD8006;
+    text-decoration-line: line-through;
+}
+.combo-text-div{
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+
+}
+.combo-text-div div{
+    background: rgb(253 128 6 / 20%);
+    border-radius: 1px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FD8006;
+
+    width: 158px;
+    height: 29px;
+}
+.combo-text-div span{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 17px;
+    color: #FD8006;
+}
+.combo-text button{
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%);
+    box-shadow: 0 4px 13px rgba(255, 126, 0, 0.6);
+    border-radius: 2px;
+    width: 274px;
+    height: 51px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.recommend {
+    width: 80%;
+    margin:50px auto 0;
+    border-bottom: 1px solid #D6D6D7;
+}
+.recommend>h3{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #222222;
+}
+.recommend-line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.recommend-line>p{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #222222;
+}
+.recommend-button {
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%), #FD8006;
+    border-radius: 1px;
+    width: 131px;
+    height: 40px;
+    margin-top: 20px;
+}
+.recommend-button img{
+    width: 15px;
+    height: 17px;
+}
+.recommend-button span{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.reviews{
+    width: 80%;
+    margin: 50px auto 0;
+}
+.reviews-head div{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FD8006;
+}
+.reviews-head div span{
+    padding-left: 30px;
+    color: #222222;
+    text-decoration-line: underline;
+}
+.reviews-head button{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%);
+    box-shadow: 0 4px 13px rgba(255, 126, 0, 0.6);
+    border-radius: 2px;
+    width: 181px;
+    height: 51px;
+    margin-top: 22px;
+    margin-bottom: 43px;
+}
+.reviews-head button:hover{
+    background: linear-gradient(180deg, #FFBB3B 0%, #FFA800 100%), linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%);
+    box-shadow: 0 4px 13px rgba(255, 126, 0, 0.6);
+    border-radius: 2px;
+}
+.reviews-body{
+    margin-bottom: 60px;
+}
+.reviews-line{
+    display: flex;
+    align-items: center;
+    margin-bottom: 33px;
+}
+.reviews-line>img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.reviews-section{
+    padding-left: 20px;
+}
+.reviews-section-head{
+    display: flex;
+    justify-content: space-between;
+}
+.reviews-section-head-left{
+    display: flex;
+    align-items: center;
+}
+.reviews-section-head-left div{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+}
+.reviews-section-head-left p{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7A7A7A;
+    padding-left: 14px;
+}
+.reviews-section-head-right{
+    display: flex;
+    align-items: center;
+}
+.reviews-section-head-right p{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+    color: #7A7A7A;
+}
+.reviews-section-head-right div{
+    width: 43px;
+    height: 29px;
+    background: #EEEEEE;
+    border-radius: 1px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+    color: #739B41;
+    text-align: center;
+    padding-top: 8px;
+    margin: 0 12px 17px;
+}
+.reviews-section-head-right img{
+    color: #C6C6C6;
+    width: 18px;
+    height: 18px;
+    padding-bottom: 23px;
+}
+.reviews-section-head-right img:hover{
+    color: #7A7A7A;
+}
+.reviews-section-head h3{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 21px;
+    color: #222222;
+    padding-top: 13px;
+}
+.reviews-section h3{
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #222222;
+}
+.cupon1{
+    width: 80%;
+    margin: auto;
+    background: url(images/cupon.png) 0 0/100% 100% no-repeat;
+    border: 1px solid #DEB84A;
+    box-sizing: border-box;
+}
+.cupon1 h2{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    color: #222222;
+    padding-top: 57px;
+    padding-bottom: 36px;
+}
+.cupon1-line{
+    display: flex;
+    margin: 0 115px;
+    justify-content: space-between;
+}
+.cupon1-line img{
+    width: 400px;
+    height: 300px;
+}
+.cupon1-ul{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    color: #222222;
+}
+.cupon1-ul li{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 29px;
+    color: #222222;
+}
+.cupon1-ul li:before{
+    content: "✓ ";
+    color:  #739B41;
+}
+.cupon1-body{
+    display: flex;
+}
+.cupon1-body>p{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+    color: #222222;
+    padding: 0 20px;
+}
+.cupon1-body-price div{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 31px;
+    color: #222222;
+}
+.cupon1-body-price p{
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 20px;
+    color: #7A7A7A;
+}
+.cupon1-text button{
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%);
+    box-shadow: 0 4px 13px rgba(255, 126, 0, 0.6);
+    border-radius: 2px;
+    width: 209px;
+    height: 53px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 57px;
+}
+.blog{
+    border-top: 1px solid #D6D6D6;
+}
+.blog-line{
+    width: 80%;
+    margin: auto;
+}
+.blog-head{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+.blog-head p{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #222222;
+    margin-right: 23px;
+}
+.blog-button{
+    width: 220px;
+    height: 37px;
+    border: 1px solid #F61C0D;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: white;
+}
+.blog-button img{
+    width: 15px;
+    height: 10px;
+}
+.blog-button span{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #F61C0D;
+}
+.blog-body{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.blog-body img{
+    width: 25%;
+    height: 252px;
+}
+.blog-body img:last-child{
+    width: 40%;
+    height: 252px;
+}
+.border-line{
+    border-top: 1px solid #D6D6D7;
+    padding-top: 50px;
+}
+.reviews-write p{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7D7D7D;
+}
+.reviews-write input{
+    border: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    border-radius: 1px;
+    width: 90%;
+    height: 118px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7D7D7D;
+    margin-bottom: 16px;
+}
+.reviews-button{
+    width: 191px;
+    height: 47px;
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%);
+    box-shadow: 0 4px 13px rgba(255, 126, 0, 0.6);
+    border-radius: 2px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-bottom: 47px;
+    margin-left: 20px;
+}
+.reviews-write button:last-child{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7D7D7D;
+    border: 0;
+    background: 0;
+    margin-left: 40px;
+}
+.order{
+    width: 80%;
+    margin: 0 auto 166px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.order-left{
+    border:1px solid #7D7D7D;
+    width: 421px;
+}
+.order-left-text{
+    width: 80%;
+    margin: auto;
+}
+.order-left-text h3{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #222222;
+    padding-top: 39px;
+    padding-bottom: 8px;
+}
+.order-left-text p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #222222;
+    padding-bottom: 15px;
+}
+.order-left-text label{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    padding-bottom: 5px;
+}
+.order-left-text input{
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 18px;
+    color: #7D7D7D;
+    width: 306px;
+    height: 47px;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.order-left-text button{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 306px;
+    height: 53px;
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%);
+    box-shadow: 0 4px 13px rgba(255, 126, 0, 0.6);
+    border-radius: 2px;
+    margin-top: 13px;
+    margin-bottom: 47px;
+}
+.order-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 421px;
+    border:1px solid #7D7D7D;
+    margin-bottom: 30px;
+}
+.order-right img{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.order-right div{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+    color: #222222;
+}
+.order-right p{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #222222;
+    margin: 7px 0 17px;
+}
+.order-right button{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 212px;
+    height: 53px;
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%);
+    box-shadow: 0 4px 13px rgba(255, 126, 0, 0.6);
+    border-radius: 2px;
+}

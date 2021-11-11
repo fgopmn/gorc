@@ -1,0 +1,119 @@
+@media screen and (max-width:1200px) {
+    .head-footer-line img{
+        height: 200px;
+    }
+    .head-footer-left h3 {
+        font-size: 30px;
+    }
+    .perfume-filter{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .perfume-filter div{
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .head-footer-line img{
+        display: none;
+    }
+    .head-footer-left{
+        width: 100%;
+    }
+    .head-foot{
+        width: 20%;
+        justify-content: center;
+    }
+    .perfume-section {
+        width: 33%;
+    }
+}
+@media screen and (max-width: 800px){
+    .perfume-section {
+        width: 35%;
+    }
+    .head-footer-left input {
+        width: 30%;
+        height: 40px;
+    }
+    .head-foot {
+        width: 40%;
+    }
+    .perfume-button {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .mailing h3 {
+        font-size: 20px;
+
+    }
+    .mailing{
+        background: url("images/cupon.png") 0 0 no-repeat fixed;
+    }
+}
+@media screen and (max-width:600px) {
+    .perfume-filter{
+        display: none;
+    }
+    .perfume-head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .perfume-head h2{
+        text-decoration-line: underline;
+    }
+    .perfume-head-filter{
+        display: block;
+        font-family: Montserrat;
+        font-size: 14px;
+        line-height: 17px;
+        color: #222222;
+    }
+    .perfume-line{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .perfume-section-head{
+        display: none;
+    }
+    .perfume-section{
+        width: 260px;
+        margin-right: 25px;
+    }
+    .perfume-cosmetic-head{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .perfume-cosmetic-name{
+        display: none;
+    }
+    .perfume-cosmetic-filter p {
+        display: none;
+    }
+    .mailing{
+        display: none;
+    }
+}
+@media screen and (max-width: 420px) {
+    .head-footer-left{
+        padding: 30px;
+    }
+    .head-footer-left h3 {
+        font-size: 20px;
+        line-height: 23px;
+        padding-bottom: 5px;
+    }
+    .head-footer-left button {
+        width: 80%;
+    }
+    .head-foot {
+        width: 100%;
+    }
+    .head-foot div {
+        width: 18px;
+        height: 18px;
+    }
+}

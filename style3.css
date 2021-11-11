@@ -1,0 +1,1196 @@
+.basket-header{
+    width: 80%;
+    margin: auto;
+}
+.basket-header>p{
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 15px;
+    color: #929292;
+    margin-bottom: 18px;
+    padding-top: 10px;
+}
+.basket-buttons{
+    display: flex;
+    border-bottom: 2px solid transparent;
+    color:#FF8814;
+    border-image: linear-gradient(to right, currentColor 0%, currentColor 50%, #E5E5E5 100px, #E5E5E5 100%) 0 0 2;
+}
+.basket-buttons button{
+    background: linear-gradient(180deg, #B4B4B4 -61.02%, #9B9B9B 167.8%), linear-gradient(180deg, #D5D5D5 -61.02%, #B7B7B7 167.8%);
+    border-radius: 2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 11px 42px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+.basket-buttons button:hover{
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%), linear-gradient(180deg, #B4B4B4 -61.02%, #9B9B9B 167.8%);
+}
+.basket-price-info{
+    display: flex;
+}
+.basket-price-info-left{
+    display: flex;
+    border-right:1px solid #D6D6D7;
+    width: 40%;
+    justify-content: space-between;
+    padding-right: 30px;
+    margin-top: 17px;
+}
+.basket-price-info-left p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+}
+.basket-price-info-left span{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FD8006;
+}
+.basket-price-info-right{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin-top: 17px;
+}
+.basket-price-info-right p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+}
+.basket-price-info-right span{
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BB655;
+}
+.basket-header  h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #222222;
+    margin-bottom: 14px;
+}
+.basket-itemss{
+    width: 80%;
+    margin: auto;
+}
+.basket-items{
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.1);
+}
+.basket-items-info{
+    display: flex;
+    background: #F7F7F7;
+    justify-content: space-around;
+    padding:10px 0;
+}
+.basket-items-info p{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    color: #595959;
+}
+.basket-item-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid #D6D6D7;
+}
+.basket-item-line-left{
+    display: flex;
+    align-items: center;
+}
+.basket-item-line-left img{
+    width: 28px;
+    height: 49px;
+}
+.basket-item-line-left h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #222222;
+    padding-left: 25px;
+}
+.basket-item-line-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.basket-item-line-center-head{
+    display: flex;
+    align-items: center;
+}
+.basket-item-line-center button{
+    background: #8BB655;
+    border-radius: 1px;
+    width: 24px;
+    height: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.basket-item-line-center div p{
+    border: 1px solid #D6D6D7;
+    box-sizing: border-box;
+    border-radius: 1px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #222222;
+    padding: 9px 17px;
+    margin: 0 10px;
+}
+.basket-item-line-right{
+    display: flex;
+    align-items: center;
+}
+.basket-item-line-right p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FD8006;
+    padding:0 40px;
+}
+.basket-item-line-right button{
+    color: #222222;
+    width: 10px;
+    height: 10px;
+    background: 0;
+    border: 0;
+    padding-right: 25px;
+}
+.basket-item-line-center button:hover{
+    background: #739B41;
+}
+.basket-item-line-left h3:hover{
+    color: #FD8006;
+}
+.basket-footer{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+.basket-footer div{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    padding:0 20px ;
+}
+.basket-footer label input{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7D7D7D;
+    border: 1px solid #A7A7A7;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding:0 20px ;
+    height: 40px;
+}
+.basket-footer h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    padding:0 20px ;
+}
+.basket-footer h4 span{
+    font-size: 22px;
+    line-height: 27px;
+    color: #FD8006;
+}
+.basket-footer p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    padding:0 20px ;
+}
+.basket-footer button{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%), #FD8006;
+    border-radius: 2px;
+    padding:10px 20px ;
+}
+.basket-gift{
+    width: 80%;
+    margin: 50px auto 0;
+    border-bottom:1px solid #D6D6D7;
+}
+.basket-gift-line{
+    display: flex;
+    background: #FFFFFF;
+    padding: 21px 15px 18px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.perfume-section {
+    padding: 10px;
+    position: relative;
+}
+.perfume-section button{
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%), #FD8006;
+    border-radius: 1px;font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px;
+    display: none;
+    margin: 16px  22px;
+}
+.perfume-section button img{
+    width: 14px;
+    height: 14px;
+}
+.perfume-section:hover{
+    background: #FFFFFF;
+    box-shadow: 0 4px 11px rgba(0, 0, 0, 0.19);
+}
+.perfume-section:hover button{
+    display: block;
+}
+.basket-gift-foot{
+    display: flex;
+    margin-bottom: 70px;
+    align-items: center;
+}
+.basket-gift-foot div{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.basket-gift-foot span{
+    font-size: 22px;
+    line-height: 27px;
+    color: #8BB655;
+    padding-left: 15px;
+}
+.basket-gift-foot a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #FD8006;
+    padding-left: 30px;
+}
+.basket-gift>p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    padding-top: 15px ;
+}
+.basket-gift>div{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.basket-gift>div>button{
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    border: 1px solid #666666;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: 0;
+    padding: 10px;
+}
+.basket-soc{
+    text-align: center;
+    padding: 43px 0;
+    border-bottom:1px solid #D6D6D7;
+}
+.basket-soc p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #222222;
+}
+.basket-soc span{
+    color: #FD8006;
+}
+.basket-soc-imgs{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.basket-soc-imgs img{
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+.basket-delivery{
+    background: #FFFFFF;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.13);
+    margin: 40px auto;
+    width: 80%;
+}
+.basket-delivery-head{
+    padding-bottom: 25px;
+}
+.basket-delivery-head h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #222222;
+    padding: 30px;
+}
+.basket-delivery-head div{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    padding-left: 30px;
+}
+.basket-delivery-head div span{
+    font-weight: bold;
+    padding-left: 10px;
+}
+.basket-delivery-head a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #222222;
+    padding-left: 10px;
+}
+.basket-delivery-head a:hover{
+    color: #FDB806;
+    padding-left: 10px;
+}
+.basket-delivery-body-head{
+    border-top: 1px solid #666666;
+    padding-left: 30px;
+}
+.basket-delivery-body-head h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    padding: 25px 0 13px;
+}
+.basket-delivery-body-head form{
+    display: flex;
+}
+.basket-delivery-body-head form div{
+    margin:  20px 20px 20px 0;
+}
+.basket-delivery-body-head form label{
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    color: #333333;
+    padding: 20px;
+}
+.basket-delivery-body-head input{
+    border: 1.2px solid #A7A7A7;
+    box-sizing: border-box;
+    margin-right: 15px;
+}
+.basket-delivery-body-head form p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #7A7A7A;
+    margin: 25px 25px 25px 0;
+}
+.basket-delivery-body-head input:hover .basket-delivery-body-head label{
+    border: 1px solid #8BB655;
+    box-sizing: border-box;
+    color:  #8BB655;
+}
+.basket-delivery-body-body{
+    border-bottom: 1px solid #EDEDED;
+    padding-left: 30px;
+}
+.basket-delivery-body-body h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+}
+.basket-delivery-options{
+    width: 50%;
+}
+.basket-delivery-options form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.basket-delivery-options label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    border: 1px solid #8BB655;
+    box-sizing: border-box;
+    padding: 20px 20px 20px 0;
+    margin: 14px
+}
+.basket-delivery-options input{
+    margin: 0 10px;
+}
+.basket-delivery-date{
+    display: flex;
+}
+.basket-delivery-date p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+.basket-delivery-date span{
+    color: #FD8006;
+}
+.basket-delivery-foot p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+    padding: 24px 24px 24px 30px;
+}
+.basket-delivery-foot span{
+    font-size: 22px;
+    line-height: 27px;
+    color: #FD8006;
+    padding-left: 10px;
+}
+.basket-form{
+    width: 80%;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0 5px 13px rgba(0, 0, 0, 0.13);
+}
+.basket-form h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #222222;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.basket-form-form form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.basket-form-form label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+}
+.basket-form-form input{
+    margin-top: 5px;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-bottom: 17px;
+    width: 306px;
+    height: 47px;
+    padding-left: 15px;
+}
+.basket-form-footer {
+    padding-left: 30px;
+    margin-top: 24px;
+    padding-bottom: 36px;
+}
+.basket-form-footer form{
+    display: flex;
+    flex-direction: column;
+}
+.basket-form-footer label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #222222;
+    padding-bottom: 13px;
+}
+.basket-payment{
+    background: #FFFFFF;
+    box-shadow: 0 5px 13px rgba(0, 0, 0, 0.13);
+    width: 80%;
+    margin: auto;
+}
+.basket-payment h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #222222;
+    padding-left: 30px;
+    padding-top: 28px;
+    padding-bottom: 23px;
+}
+.basket-payment-form {
+    padding-left: 30px;
+}
+.basket-payment-form form{
+    display: flex;
+    flex-direction: column;
+}
+.basket-payment-form label{
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    padding:  18px 18px 18px 0;
+    width: 240px;
+    margin-bottom: 14px;
+}
+.basket-payment-form input{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.basket-payment-card{
+    padding-left: 30px;
+}
+.basket-payment-card p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    margin-bottom: 8px;
+}
+.basket-payment-card form{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+
+}
+.basket-payment-card label{
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    width: 30%;
+    padding:0 18px 18px;
+    margin-right: 18px;
+}
+.basket-payment-card form img{
+    width: 20px;
+    height: 25px;
+    padding:12px 11px 0;
+}
+.basket-payment-card button{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%), #FD8006;
+    border-radius: 2px;
+    padding: 18px 80px;
+    margin: 17px 0;
+}
+.basket-payment-card-footer{
+    padding-bottom: 36px;
+}
+.basket-payment-card-footer div{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    color: #222222;
+}
+.payments-types{
+    border-top: 1px solid #D6D6D7;
+    margin-top: 60px;
+}
+.payments-types h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    padding: 46px 0 23px;
+}
+.payments-types-body{
+    width: 80%;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.13);
+}
+.payments-types-body h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #222222;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 27px;
+}
+.payments-types-form{
+    padding-left: 30px;
+}
+.payments-types-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.payments-types-form label{
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    padding:  18px 18px 18px 0;
+    width: 240px;
+    margin-bottom: 14px;
+}
+.payments-types-form input{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.payments-types-form button{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%), #FD8006;
+    border-radius: 2px;
+    padding: 17px 50px;
+    margin-bottom: 15px;
+}
+.basket-bonus1{
+    width: 70%;
+    margin:60px auto 0;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.13);
+    text-align: center;
+}
+.basket-bonus1 h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #222222;
+    padding-top: 23px;
+    padding-bottom: 12px;
+    width: 80%;
+    margin: auto;
+}
+.basket-bonus1 h3>span{
+    color: #FD8006;
+}
+.basket-bonus1>p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #222222;
+    padding-bottom: 25px;
+}
+.basket-bonus1>p>span{
+    color: #FD8006;
+    text-decoration: underline;
+}
+.basket-bonus-line{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.basket-bonus-section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+.basket-bonus-section p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FD8006;
+    padding: 26px 0 10px;
+}
+.basket-bonus-section p span{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    color: #222222;
+}
+.basket-bonus-section div{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #222222;
+    padding-bottom: 13px;
+}
+.basket-bonus-section button{
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%), #FD8006;
+    border-radius: 1px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 19px;
+}
+.basket-bonus-section:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.19);
+}
+.basket-bonus1>h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FD8006;
+    background: rgba(253, 128, 6, 0.1);
+    border: 0.8px solid #FD8006;
+    box-sizing: border-box;
+    border-radius: 1px;
+    padding: 9px 14px;
+    text-align: center;
+    display: inline-block;
+}
+.basket-bonus1>button{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FD8006;
+    border: 1px solid #FD8006;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 16px 45px;
+    background: #FFFFFF;
+    margin-bottom: 32px;
+}
+.basket-bonus-line1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.basket-bonus-line2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.basket-bonus-line2>button{
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+    color:  #FD8006;
+    padding: 18px;
+}
+.basket-bonus-line2>p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #222222;
+}
+.basket-bonus-line2> .basket-bonus-section{
+    padding: 10px;
+}
+.basket-map{
+    width: 65%;
+    margin: 48px auto;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.13);
+}
+.basket-map h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #222222;
+    padding: 28px 0 21px;
+}
+.basket-map-line{
+    display: flex;
+}
+.basket-map-line>img{
+    width: 50%;
+    height: 302px;
+    padding-left: 21px;
+}
+.basket-map-line div img{
+    width: 80%;
+    height: 144px;
+    padding-right: 21px;
+}
+.basket-map-line div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 14px;
+    justify-content: space-between;
+}
+.basket-map-footer{
+    padding-left: 21px;
+}
+.basket-map-footer p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #222222;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.basket-map-footer img{
+    width: 22px;
+    height: 27px;
+    padding-right: 12px;
+}
+.basket-map-footer form{
+    display: flex;
+}
+.basket-map-footer label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: #222222;
+    padding-left: 35px;
+    margin-bottom: 32px;
+}
+.basket-map-footer input{
+    padding-right: 10px;
+}
+.basket-foot{
+    background: #FFFFFF;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.13);
+    margin: 0 auto 37px;
+    width: 40%;
+}
+.basket-foot p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222222;
+    padding: 42px 0;
+}
+.basket-foot span{
+    font-size: 22px;
+    line-height: 27px;
+    color: #FD8006;
+}
+.popup{
+    width: 70%;
+    margin: auto;
+}
+.popup h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 17px;
+}
+.popup-body{
+    background: #FFFFFF;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.13);
+    padding-bottom: 32px;
+}
+.popup-body h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #222222;
+    padding: 28px 0 21px;
+}
+.popup-body h4 span{
+    color: #FD8006;
+}
+.popup-line-head{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 22px;
+}
+.popup-line-head>button{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #333333;
+    width:25% ;
+    background: #F7F7F7;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    padding: 18px 0;
+}
+.popup-line-head>button:hover {
+    color: #FFFFFF;
+    background: #8BB655;
+}
+.popup-body-line{
+    display: flex;
+    padding-bottom: 45px;
+}
+.popup-body-right{
+    margin-left:63px;
+    width: 25%;
+}
+.popup-body-right form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+}
+.popup-body-right label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #222222;
+    padding: 18px ;
+}
+.popup-body-right input{
+    width: 181px;
+    height: 47px;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #7D7D7D;
+    padding-left: 15px;
+}
+.popup-body-right button {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%), #FD8006;
+    border-radius: 2px;
+    padding: 15px 34px;
+    margin-bottom: 20px;
+}
+.popup-body-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 63px;
+    width: 25%;
+}
+.popup-soc{
+    background: #F7F7F7;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    padding: 18px 32px;
+}
+.popup-soc p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #222222;
+    padding: 18px 0 7px;
+}
+.popup-soc div{
+    display: flex;
+    justify-content:center ;
+    padding-bottom: 15px;
+}
+.popup-soc img{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+.popup-body-left>p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #222222;
+    padding: 15px 0;
+}
+.popup-pay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+}
+.popup-pay p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #222222;
+    padding: 18px 32px 12px;
+}
+.popup-pay button{
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%), #FD8006;
+    border-radius: 2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:  12px 36px;
+    margin-bottom: 20px;
+}
+.popup h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #222222;
+}
+.popup h4 span{
+    color:#FD8006;
+    text-decoration: underline;
+}

@@ -1,0 +1,239 @@
+@media screen and (max-width: 1200px){
+    .basket-delivery-options {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .popup-body-right{
+        width: 30%;
+    }
+    .popup-body-left{
+        width: 30%;
+    }
+    .popup-line-head button{
+        width: 30%;
+    }
+    .popup-soc img {
+        width: 25px;
+        height: 25px;
+    }
+    .basket-bonus-line2>button {
+        padding: 18px 0;
+        width: 50px;
+    }
+}
+@media screen and (max-width: 800px){
+    .basket-delivery-options label {
+        padding: 10px 10px 10px 0;
+        margin: 10px;
+    }
+    .basket-delivery-options {
+        width: 80%;
+    }
+    .basket-buttons{
+        justify-content: space-between;
+    }
+    .basket-buttons button{
+        padding: 10px 30px;
+    }
+    .basket-footer{
+        flex-wrap: wrap;
+    }
+    .basket-footer>label{
+        margin-bottom: 20px;
+    }
+    .perfume-section-head{
+        display: none;
+    }
+    .basket-gift-line{
+        flex-wrap: wrap;
+    }
+    .perfume-section{
+        width: 40%;
+    }
+    .basket-payment-card form {
+        width: 100%;
+    }
+    .popup-body-right{
+        width: 50%;
+        margin: 0;
+    }
+    .popup-body-left{
+        width: 50%;
+        margin: 0;
+    }
+    .basket-bonus-line{
+        flex-wrap: wrap;
+    }
+    .basket-bonus-line2{
+        flex-wrap: wrap;
+    }
+    .basket-price-info {
+        flex-wrap: wrap;
+    }
+    .basket-price-info-right{
+        width: 100%;
+    }
+    .basket-price-info-left{
+        width: 100%;
+        border-right: 0;
+    }
+}
+@media screen and (max-width: 600px){
+    .basket-itemss{
+        width: 100%;
+    }
+    .basket-item-line {
+        width: 95%;
+        margin: auto;
+    }
+    .basket-item-line-right p {
+        padding: 0 15px;
+    }
+    .basket-header{
+        width: 100%;
+        margin: 0;
+    }
+    .basket-bonus1{
+        width: 90%;
+    }
+    .basket-gift-line{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .perfume-section{
+        width: 80%;
+    }
+    .basket-payment-card label{
+        margin-right: 0;
+    }
+    .basket-bonus-section {
+        width: 70%;
+        margin-right: 15px;
+    }
+    .basket-delivery-body-head form label {
+        padding: 10px;
+    }
+    .popup-line-head button {
+        width: 80%;
+        margin: 10px 0;
+    }
+    .popup-line-head  {
+        flex-direction: column;
+        align-items: center
+    }
+    .popup-body-line{
+        flex-direction: column;
+        align-items: center;
+    }
+    .popup-body-left{
+        width: 80%;
+    }
+    .popup-body-right{
+        width: 80%;
+        margin-top: 10px;
+    }
+    .popup-soc img {
+        width: 40px;
+        height: 40px;
+    }
+    .basket-map-line{
+        flex-direction: column;
+        padding: 0;
+    }
+    .basket-map-line>img{
+        height: 150px;
+        width: 100%;
+        padding: 0;
+    }
+    .basket-map-line div{
+        padding: 0;
+    }
+    .basket-map-line div img {
+        height: 150px;
+        width: 100%;
+    }
+    .popup{
+        width: 90%;
+    }
+    .popup h4{
+        padding: 20px;
+    }
+    .basket-payment-card form{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .basket-payment-card label{
+        width: 70%;
+        margin-bottom: 14px;
+    }
+    .basket-form-form form{
+        padding-left: 10px;
+    }
+    .basket-delivery-body-head form{
+        flex-direction: column;
+    }
+    .basket-delivery-body-head form div {
+        margin: 10px 0 0;
+    }
+}
+@media screen and (max-width: 420px){
+    .basket-map {
+        width: 90%;
+    }
+    .basket-bonus-line1{
+        flex-wrap: wrap;
+    }
+    .basket-item-line-left h3 {
+        font-size: 12px;
+        padding-left: 15px;
+    }
+    .basket-item-line-right button {
+        padding-right: 0;
+    }
+    .basket-item-line-center div p {
+        padding: 5px 10px;
+        margin: 0 7px;
+    }
+    .basket-form-form input {
+        width: 90%;
+        height: 47px;
+        padding-left: 15px;
+    }
+    .basket-form h3 {
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .basket-payment-form label {
+        width: 70%;
+        font-size: 12px;
+    }
+    .basket-payment-card label {
+        width: 90%;
+        font-size: 12px;
+    }
+    .basket-payment-card button {
+        padding: 10px 50px;
+    }
+    .payments-types-form label {
+        width: 90%;
+        font-size: 12px;
+    }
+    .payments-types-form button {
+        padding: 10px 50px;
+        width: auto;
+        font-size: 14px;
+    }
+    .basket-buttons button{
+        padding: 10px 20px;
+        font-size: 12px;
+        margin-right: 0;
+    }
+    .basket-delivery-options label {
+        font-size: 12px;
+    }
+    .basket-footer{
+        width: 70%;
+    }
+}
