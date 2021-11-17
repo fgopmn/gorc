@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap')
+li
+  list-style-type: none
+  text-decoration: none
+*
+  margin: 0
+  padding: 0
+button
+  cursor: pointer
+input[type=checkbox] + label
+  display: block
+  cursor: pointer
+  padding: 0.2em
+input[type=checkbox]
+  display: none
+input[type=checkbox] + label:before
+  content: "\2713"
+  border: 0.1em solid #000
+  border-radius: 0.1em
+  display: inline-block
+  width: 1em
+  height: 1em
+  padding-left: 0.2em
+  padding-bottom: 0.3em
+  margin-right: 0.2em
+  vertical-align: bottom
+  color: transparent
+  transition: .2s
+input[type=checkbox] + label:active:before
+  transform: scale(0)
+input[type=checkbox]:checked + label:before
+  background-color: MediumSeaGreen
+  border-color: MediumSeaGreen
+  color: #fff
+.star img
+  width: 72px
+  height: 12px
+.header-line
+  background: #F6F6F6
+.header-head
+  display: none
+header
+  height: 45px
+  display: flex
+  width: 80%
+  margin: auto
+.header-left
+  display: flex
+  align-items: center
+  padding-right: 5px
+  width: 50%
+  img
+    width: 13px
+    height: 13px
+    padding-right: 6px
+  div
+    padding-right: 29px
+  p,div
+    font-family: Montserrat
+    font-size: 14px
+    color: #222222
+.header-ul
+  width: 70%
+  display: flex
+  justify-content: flex-end
+  align-items: center
+  li
+    padding-left: 25px
+    text-decoration: underline
+    a
+      font-family: Montserrat
+      color: #222222
+      font-size: 14px
+      line-height: 17px
+      text-decoration: underline
+.head-title
+  padding-top: 15px
+  width: 80%
+  margin: auto
+  padding-bottom: 20px
+  display: flex
+  justify-content: space-between
+.head-title-left
+  display: flex
+  img
+    width: 40px
+    height: 70px
+.head-title-left-text
+  padding-left: 10px
+  h3
+    font-family: Circe
+    font-size: 40px
+    color: #8BB655
+  p
+    font-family: Montserrat
+    font-style: normal
+    font-weight: 300
+    font-size: 11px
+    color: #858585
+.head-title-right
+  display: flex
+  align-items: center
+  justify-content: flex-end
+  label
+    border-bottom: 1px solid #D6D6D6
+  input
+    width: 350px
+    height: 25px
+    border: 0
+    font-family: Montserrat
+    font-style: normal
+    font-weight: normal
+    font-size: 15px
+    line-height: 18px
+    color: #7D7D7D
+  >img
+    width: 18px
+    height: 18px
+    margin-left: -25px
+.basket-button
+  position: relative
+  display: inline-block
+.basket-hover
+  display: none
+  position: absolute
+  z-index: 1
+  left: -300px
+  top: 70px
+  width: 400px
+  background-color: white
+  img
+    width: 23px
+    height: 40px
+  h3
+    display: block
+    font-family: Montserrat
+    background: #F7F7F7
+    font-weight: 500
+    font-size: 20px
+    line-height: 24px
+    text-align: center
+    color: #222222
+    padding: 21px 0 15px
+.basket-price
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 15px 15px 22px
+  background: #FFFFFF
+  box-shadow: 0 6px 13px rgba(0, 0, 0, 0.3)
+  >p
+    font-family: Montserrat
+    font-weight: 500
+    font-size: 16px
+    line-height: 20px
+    color: #222222
+    >span
+      font-family: Montserrat
+      font-weight: 500
+      font-size: 20px
+      line-height: 24px
+      color: #FD8006
+  >button
+    font-family: Montserrat
+    font-style: normal
+    font-weight: bold
+    font-size: 14px
+    line-height: 17px
+    text-align: center
+    color: #FFFFFF
+    padding: 15px
+    background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%), #FD8006
+    border-radius: 1px
+.basket-info
+  display: flex
+  padding: 0 15px 15px
+  background: #FFFFFF
+  justify-content: space-between
+  align-items: center
+  p
+    font-family: Montserrat
+    font-size: 14px
+    line-height: 17px
+    color: #222222
+    span
+      font-weight: 500
+      color: #FD8006
+.basket-free
+  display: flex
+  justify-content: center
+  padding: 17px 0
+  background: #F7F7F7
+  img
+    width: 22px
+    height: 17px
+    padding-right: 8px
+  a
+    font-family: Montserrat
+    font-weight: 500
+    font-size: 15px
+    line-height: 18px
+    text-align: center
+    color: #222222
+.basket-button:hover .basket-hover
+  display: block
+  transition: 1s
+.basket-button>button
+  width: 60px
+  height: 65px
+  margin-left: 40px
+  background: linear-gradient(180deg, #FDB806 -61.02%, #FD8006 167.8%), #FD8006
+  border-radius: 2px
+  >img
+    width: 40px
+    height: 55px
+.perfume-section
+  width: 22%
+  margin-bottom: 45px
+  margin-top: 32px
+.perfume-section-head img
+  width: 15px
+  height: 26px
+  margin-left: 15px
+.perfume-section-body
+  display: flex
+  margin-top: 26px
+  margin-bottom: 35px
+  p
+    width: 58px
+    height: 30px
+    background: #FFFFFF
+    border: 1px solid #E2E2E2
+    box-sizing: border-box
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1)
+    border-radius: 1px
+    font-family: Montserrate
+    font-weight: 500
+    font-size: 15px
+    text-align: center
+    padding: 5px
+    color: #739B41
+.perfume-section-body-img1
+  width: 109px
+  height: 184px
+.perfume-section-footer h3
+  font-family: Montserrat
+  font-weight: 500
+  font-size: 18px
+  line-height: 22px
+  color: #FD8006
+  padding-bottom: 12px
+  >span
+    font-family: Montserrat
+    font-size: 15px
+    line-height: 18px
+    text-decoration-line: line-through
+    color: #222222
+  h4
+    font-family: Montserrat
+    font-size: 16px
+    line-height: 20px
+    color: #222222
+    padding: 15px 0 9px
+  p
+    font-family: Montserrat
+    font-size: 13px
+    line-height: 16px
+    color: #7A7A7A
+    padding-bottom: 13px
+.perfume-img
+  height: 24px
+  display: flex
+  img
+    padding-left: 15px
+.perfume-section
+  width: 22%
+  margin-bottom: 45px
+.perfume-section-head img
+  width: 15px
+  height: 26px
+  margin-left: 15px
+.perfume-section-body
+  display: flex
+  margin-top: 26px
+  margin-bottom: 35px
+  p
+    width: 58px
+    height: 30px
+    background: #FFFFFF
+    border: 1px solid #E2E2E2
+    box-sizing: border-box
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1)
+    border-radius: 1px
+    font-family: Montserrat
+    font-weight: 500
+    font-size: 15px
+    text-align: center
+    padding: 5px
+    color: #739B41
+.perfume-section-body-img1
+  width: 109px
+  height: 184px
+.perfume-section-footer
+  h3
+    font-family: Montserrat
+    font-weight: 500
+    font-size: 18px
+    line-height: 22px
+    color: #FD8006
+    padding-bottom: 12px
+    > span
+      font-family: Montserrat
+      font-size: 15px
+      line-height: 18px
+      text-decoration-line: line-through
+      color: #222222
+  h4
+    font-family: Montserrat
+    font-size: 16px
+    line-height: 20px
+    color: #222222
+    padding: 15px 0 9px
+  p
+    font-family: Montserrat
+    font-size: 13px
+    line-height: 16px
+    color: #7A7A7A
+    padding-bottom: 13px
+.perfume-section-body-img2
+  width: 194px
+  height: 180px
+.product-line
+  display: flex
+  background: #FFF
+  box-shadow: 0 6px 13px rgba(0, 0, 0, 0.3)
+  padding: 21px 15px 18px
+  justify-content: space-between
+  align-items: center
+  border-top: 1px solid #D6D6D7
+  >p
+    font-family: Montserrat
+    font-weight: 500
+    font-size: 18px
+    line-height: 22px
+    color: #FD8006
+  h4
+    font-family: Montserrat
+    font-style: normal
+    font-weight: normal
+    font-size: 15px
+    line-height: 18px
+    color: #222222
+    padding-left: 5px
+  >button
+    border: 0
+    background: 0
+    color: #222222
+.product-line1 h4
+  padding-right: 21px
+.product-line2 h4
+  padding-right: 28px
+.product-line-amount
+  display: flex
+  width: 30%
+  justify-content: space-between
+  align-items: center
+  button
+    font-family: Montserrat
+    font-style: normal
+    font-weight: 500
+    font-size: 20px
+    line-height: 24px
+    color: #FFF
+    background: #8BB655
+    padding: 0 4px
+    border-radius: 1px
+    margin: 0 12px
+.head-body
+  margin: 40px auto 21px
+  width: 80%
+  display: flex
+  align-items: center
+  justify-content: space-between
+.head-body-section:first-child
+  padding-left: 10px
+.head-body-section:last-child
+  padding-right: 10px
+.head-body-section
+  display: flex
+  align-items: center
+  img
+    width: 33.15px
+    height: 33.66px
+  p
+    font-family: Montserrat
+    font-size: 14px
+    line-height: 17px
+    color: #222
+    margin-left: 18px
+    &:hover
+      color: #FD8006
+footer
+  background: url("../images/footer.png")
+.footer-background
+  width: 80%
+  margin: auto
+.footer-line
+  display: flex
+  justify-content: space-between
+.footer-left
+  display: flex
+  flex-direction: column
+  width: 25%
+.footer-logo
+  padding-top: 39px
+.footer-left-ul
+  display: flex
+  padding-left: 0
+  padding-top: 45px
+  padding-bottom: 130px
+  li
+    padding-right: 30px
+    a
+      font-size: 14px
+      line-height: 17px
+      text-decoration-line: underline
+      color: #222222
+      font-family: Montserrat
+.footer-center
+  padding-top: 51px
+  display: flex
+  flex-direction: column
+  width: 25%
+  h3
+    font-family: Montserrat
+    font-weight: 500
+    font-size: 18px
+    line-height: 22px
+    color: #222222
+    padding-bottom: 20px
+    padding-top: 10px
+    padding-left: 35px
+  p
+    font-family: Montserrat
+    font-weight: 500
+    font-size: 15px
+    line-height: 18px
+    text-decoration-line: underline
+    color: #8BB655
+    padding-bottom: 82px
+    padding-left: 35px
+.footer-center-head
+  display: flex
+  div
+    font-family: Montserrat
+    font-weight: 500
+    font-size: 18px
+    line-height: 22px
+    color: #222222
+    padding-right: 10px
+  img:first-child
+    width: 15px
+    height: 15px
+    padding-right: 10px
+  img
+    width: 20px
+    height: 20px
+    padding-right: 5px
+.footer-mail
+  display: flex
+  img
+    width: 15px
+    height: 15px
+    padding-right: 13px
+  div
+    font-family: Montserrat
+    font-size: 15px
+    line-height: 18px
+    color: #222222
+    padding-bottom: 21px
+.footer-geo
+  display: flex
+  img
+    width: 13px
+    height: 16px
+    padding-right: 15px
+  div
+    font-family: Montserrat
+    font-size: 15px
+    line-height: 18px
+    color: #222222
+    padding-bottom: 7px
+.footer-right
+  width: 25%
+  display: flex
+  align-items: flex-end
+  flex-direction: column
+  p
+    font-family: Montserrat
+    font-size: 15px
+    line-height: 18px
+    text-align: right
+    color: #222222
+    padding-top: 52px
+    padding-bottom: 14px
+  button
+    background: #8BB655
+    border-radius: 1px
+    width: 100px
+    height: 41px
+    a
+      font-family: Montserrat
+      font-weight: 500
+      font-size: 14px
+      line-height: 17px
+      color: #FFFFFF
+      text-decoration: none
+      padding-right: 5px
+    span
+      transform: rotate(270deg)
+      position: absolute
+      font-size: 14px
+      line-height: 17px
+      color: #FFFFFF
+.footer-right-img
+  display: flex
+  padding-bottom: 53px
+  div
+    background: #8BB655
+    border-radius: 1px
+    width: 41px
+    height: 41px
+    margin-left: 10px
+    display: flex
+    align-items: center
+    justify-content: center
+    &:hover
+      background: #739B41
+      cursor: pointer
+  img
+    width: 18px
+    height: 18px
+.footer-ul
+  display: flex
+  padding: 0 0 21px
+  justify-content: space-between
+  li
+    font-family: Montserrat
+    font-size: 14px
+    line-height: 17px
+    color: #222222
+    width: 25%
+    &:last-child
+      text-align: right
+.footer-li
+  text-decoration-line: underline

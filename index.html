@@ -5,12 +5,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style1.css">
-    <link rel="stylesheet" href="media1.css">
-    <link rel="stylesheet" href="media.css">
-    <link rel="stylesheet" href="style.sass">
-   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/media1.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Главная</title>
 </head>
 <body>
@@ -44,10 +42,10 @@
                     <img src="images/phone-korzina.png" alt="image" class="header-head-img4">
                 </div>
             </div>
-            </div>
             <div class="header-line">
                 <header>
                     <div class="header-left">
+                        <img src="images/phone-icon.png" alt="icon">
                         <div>+7(999) 133-21-83</div>
                         <p>8(800) 222-31-36 - Бесплатно по России</p>
                     </div>
@@ -68,23 +66,31 @@
                         </div>
                     </div>
                     <div class="head-title-right">
-                        <input type="search" name="search">
+                        <label><input type="search" name="search" placeholder="Поиск"></label>
                         <img src="images/icon1.png" alt="icon">
                         <div class="basket-button">
                             <button><img src="images/icon2.png" alt=""></button>
                             <div class="basket-hover">
                                 <h3>Ваши Товары</h3>
-                                <div class="product-line">
+                                <div class="product-line product-line1">
                                     <img src="images/basket-icon1.png" alt="icon">
                                     <h4>Духи аль Рехаб <br> 3 мл</h4>
-                                    <div></div>
+                                    <div class="product-line-amount">
+                                        <button>-</button>
+                                        <p>2</p>
+                                        <button>+</button>
+                                    </div>
                                     <p>1390₽</p>
                                     <button>x</button>
                                 </div>
-                                <div class="product-line">
+                                <div class="product-line product-line2">
                                     <img src="images/basket-icon2.png" alt="icon">
                                     <h4>Духи аль Рехаб <br> Делайтфул 3 мл</h4>
-                                    <div></div>
+                                    <div class="product-line-amount">
+                                        <button>-</button>
+                                        <p>52</p>
+                                        <button>+</button>
+                                    </div>
                                     <p>21300₽</p>
                                     <button>x</button>
                                 </div>
@@ -103,7 +109,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
             </div>
             <div class="head-body">
@@ -142,20 +147,23 @@
                     <h3>Поступление натуральной косметики из Марокко</h3>
                     <p>Получите 5% скидки на косметику из Марокко</p>
                     <div class="head-input">
-                        <label> <input type="text"></label>
-                        <label>  <input type="email"></label>
+                        <label><input type="text" placeholder="Введите Имя"></label>
+                        <label><input type="email" placeholder="Введите E-mail"></label>
                     </div>
-                    <h4>Даю согласие на обработку персональных данных</h4>
-                    <button>Получить скидку</button>
+                    <div class="head-agree">
+                        <input name="agree" id="agree" type="checkbox" checked>
+                        <label for="agree">Даю согласие на обработку персональных данных  </label>
+                    </div>
+                    <button><img src="images/discount-icon.png" alt="icon">Получить скидку</button>
                 </div>
                 <img src="images/image3.png" alt="image">
                 </div>
-                <div class="head-foot">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
+                <ul class="head-foot">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
         </section>
         <section class="perfume">
@@ -169,15 +177,16 @@
                     <button>Ноты</button>
                     <div class="filter-checkbox">
                         <form action="" class="checkbox-form">
-                            <p><label class="checkbox-form-search"><input type="search"></label></p>
-                            <label for="a1"><input type="checkbox" checked id="a1"> Агава</label>
-                            <label for="a2"><input type="checkbox" id="a2"> Абрикос</label>
-                            <label for="a3"><input type="checkbox" id="a3"> Бадьян</label>
-                            <label for="a4"><input type="checkbox" checked id="a4"> Виноград</label>
-                            <label for="a5"><input type="checkbox" id="a5"> Ваниль</label>
-                            <label for="a6"><input type="checkbox" id="a6"> Грейпфрут</label>
-                            <label for="a7"><input type="checkbox" id="a7"> Дыня</label>
-                            <label for="a8"><input type="checkbox" id="a8"> Земляника</label>
+                            <p><label class="checkbox-form-search"><input type="search" placeholder="Поиск"><img
+                                    src="images/phone-search.png" alt="icon"></label></p>
+                            <input type="checkbox" checked id="a1"><label for="a1"> Агава</label>
+                            <input type="checkbox" id="a2"> <label for="a2"> Абрикос</label>
+                            <input type="checkbox" id="a3"><label for="a3"> Бадьян</label>
+                            <input type="checkbox" checked id="a4"> <label for="a4"> Виноград</label>
+                            <input type="checkbox" id="a5"><label for="a5"> Ваниль</label>
+                            <input type="checkbox" id="a6"><label for="a6"> Грейпфрут</label>
+                            <input type="checkbox" id="a7"> <label for="a7"> Дыня</label>
+                            <input type="checkbox" id="a8"><label for="a8"> Земляника</label>
                             <div class="checkbox-button">
                                 <button>Применить</button>
                                 <button>Сбросить</button>
@@ -193,14 +202,14 @@
                     <div class="filter-checkbox">
                         <form action="" class="checkbox-form">
                             <p></p>
-                            <label><input type="checkbox" checked > Агава</label>
-                            <label><input type="checkbox" > Абрикос</label>
-                            <label><input type="checkbox" > Бадьян</label>
-                            <label><input type="checkbox" checked > Виноград</label>
-                            <label><input type="checkbox" > Ваниль</label>
-                            <label><input type="checkbox" > Грейпфрут</label>
-                            <label><input type="checkbox" > Дыня</label>
-                            <label><input type="checkbox" > Земляника</label>
+                            <input type="checkbox" checked id="a11"><label for="a11"> Агава</label>
+                            <input type="checkbox" id="a21"> <label for="a21"> Абрикос</label>
+                            <input type="checkbox" id="a31"><label for="a31"> Бадьян</label>
+                            <input type="checkbox" checked id="a41"><label for="a41"> Виноград</label>
+                            <input type="checkbox" id="a51"><label for="a51"> Ваниль</label>
+                            <input type="checkbox" id="a61"><label for="a61"> Грейпфрут</label>
+                            <input type="checkbox" id="a71"> <label for="a71"> Дыня</label>
+                            <input type="checkbox" id="a81"><label for="a81"> Земляника</label>
                             <div class="checkbox-button">
                                 <button>Применить</button>
                                 <button>Сбросить</button>
@@ -240,7 +249,7 @@
                         </div>
                         <h4>Аль Рехаб Делайтфул 6 мл</h4>
                         <p>Al-Rehab Perfumes, 6 мл</p>
-                        <div class="star"></div>
+                        <div class="star"><img src="images/stars.png" alt="icon"></div>
                     </div>
                 </div>
                 <div class="perfume-section">
@@ -257,7 +266,7 @@
                         </div>
                         <h4>Аль Рехаб Делайтфул 6 мл</h4>
                         <p>Al-Rehab Perfumes, 6 мл</p>
-                        <div class="star"></div>
+                        <div class="star"><img src="images/stars.png" alt="icon"></div>
                     </div>
                 </div>
                 <div class="perfume-section">
@@ -284,12 +293,11 @@
                         </div>
                         <h4>Аль Рехаб Делайтфул 6 мл</h4>
                         <p>Al-Rehab Perfumes, 6 мл</p>
-                        <div class="star"></div>
+                        <div class="star"><img src="images/stars.png" alt="icon"></div>
                     </div>
                 </div>
                 <div class="perfume-section">
                     <div class="perfume-section-body">
-
                         <img src="images/mecDuxi2.png" alt="image" class="perfume-section-body-img2">
                     </div>
                     <div class="perfume-section-footer">
@@ -302,39 +310,38 @@
                         </div>
                         <h4>Аль Рехаб Делайтфул 6 мл</h4>
                         <p>Al-Rehab Perfumes, 6 мл</p>
-                        <div class="block1-star"></div>
+                        <div class="star"><img src="images/stars.png" alt="icon"></div>
                     </div>
                 </div>
                 <div class="perfume-section">
-                    <div class="perfume-section-head">
-                        <img src="images/duxi1.png" alt="image">
-                        <img src="images/duxi2.png" alt="image">
-                        <img src="images/duxi3.png" alt="image">
-                        <img src="images/duxi4.png" alt="image">
-                        <img src="images/duxi5.png" alt="image">
-                        <img src="images/duxi6.png" alt="image">
-                        <img src="images/duxi7.png" alt="image">
-                    </div>
-                    <div class="perfume-section-body">
-                        <p>-20%</p>
-                        <img src="images/mecDuxi1.png" alt="image"  class="perfume-section-body-img1">
-                    </div>
-                    <div class="perfume-section-footer">
-                        <h3>189₽ <span>279₽</span></h3>
-                        <div class="perfume-img">
-                            <img src="images/duxi-icon1.png" alt="image" >
-                            <img src="images/duxi-icon2.png" alt="image">
-                            <img src="images/duxi-icon3.png" alt="image">
-                            <img src="images/duxi-icon4.png" alt="image">
-                        </div>
-                        <h4>Аль Рехаб Делайтфул 6 мл</h4>
-                        <p>Al-Rehab Perfumes, 6 мл</p>
-                        <div class="star"></div>
-                    </div>
+                <div class="perfume-section-head">
+                    <img src="images/duxi1.png" alt="image">
+                    <img src="images/duxi2.png" alt="image">
+                    <img src="images/duxi3.png" alt="image">
+                    <img src="images/duxi4.png" alt="image">
+                    <img src="images/duxi5.png" alt="image">
+                    <img src="images/duxi6.png" alt="image">
+                    <img src="images/duxi7.png" alt="image">
                 </div>
+                <div class="perfume-section-body">
+                    <p>-20%</p>
+                    <img src="images/mecDuxi1.png" alt="image"  class="perfume-section-body-img1">
+                </div>
+                <div class="perfume-section-footer">
+                    <h3>189₽ <span>279₽</span></h3>
+                    <div class="perfume-img">
+                        <img src="images/duxi-icon1.png" alt="image" >
+                        <img src="images/duxi-icon2.png" alt="image">
+                        <img src="images/duxi-icon3.png" alt="image">
+                        <img src="images/duxi-icon4.png" alt="image">
+                    </div>
+                    <h4>Аль Рехаб Делайтфул 6 мл</h4>
+                    <p>Al-Rehab Perfumes, 6 мл</p>
+                    <div class="star"><img src="images/stars.png" alt="icon"></div>
+                </div>
+            </div>
                 <div class="perfume-section">
                     <div class="perfume-section-body">
-
                         <img src="images/mecDuxi2.png" alt="image" class="perfume-section-body-img2">
                     </div>
                     <div class="perfume-section-footer">
@@ -347,39 +354,38 @@
                         </div>
                         <h4>Аль Рехаб Делайтфул 6 мл</h4>
                         <p>Al-Rehab Perfumes, 6 мл</p>
-                        <div class="star"></div>
+                        <div class="star"><img src="images/stars.png" alt="icon"></div>
                     </div>
                 </div>
                 <div class="perfume-section">
-                    <div class="perfume-section-head">
-                        <img src="images/duxi1.png" alt="image">
-                        <img src="images/duxi2.png" alt="image">
-                        <img src="images/duxi3.png" alt="image">
-                        <img src="images/duxi4.png" alt="image">
-                        <img src="images/duxi5.png" alt="image">
-                        <img src="images/duxi6.png" alt="image">
-                        <img src="images/duxi7.png" alt="image">
-                    </div>
-                    <div class="perfume-section-body">
-                        <p>-20%</p>
-                        <img src="images/mecDuxi1.png" alt="image"  class="perfume-section-body-img1">
-                    </div>
-                    <div class="perfume-section-footer">
-                        <h3>189₽ <span>279₽</span></h3>
-                        <div class="perfume-img">
-                            <img src="images/duxi-icon1.png" alt="image" >
-                            <img src="images/duxi-icon2.png" alt="image">
-                            <img src="images/duxi-icon3.png" alt="image">
-                            <img src="images/duxi-icon4.png" alt="image">
-                        </div>
-                        <h4>Аль Рехаб Делайтфул 6 мл</h4>
-                        <p>Al-Rehab Perfumes, 6 мл</p>
-                        <div class="star"></div>
-                    </div>
+                <div class="perfume-section-head">
+                    <img src="images/duxi1.png" alt="image">
+                    <img src="images/duxi2.png" alt="image">
+                    <img src="images/duxi3.png" alt="image">
+                    <img src="images/duxi4.png" alt="image">
+                    <img src="images/duxi5.png" alt="image">
+                    <img src="images/duxi6.png" alt="image">
+                    <img src="images/duxi7.png" alt="image">
                 </div>
+                <div class="perfume-section-body">
+                    <p>-20%</p>
+                    <img src="images/mecDuxi1.png" alt="image"  class="perfume-section-body-img1">
+                </div>
+                <div class="perfume-section-footer">
+                    <h3>189₽ <span>279₽</span></h3>
+                    <div class="perfume-img">
+                        <img src="images/duxi-icon1.png" alt="image" >
+                        <img src="images/duxi-icon2.png" alt="image">
+                        <img src="images/duxi-icon3.png" alt="image">
+                        <img src="images/duxi-icon4.png" alt="image">
+                    </div>
+                    <h4>Аль Рехаб Делайтфул 6 мл</h4>
+                    <p>Al-Rehab Perfumes, 6 мл</p>
+                    <div class="star"><img src="images/stars.png" alt="icon"></div>
+                </div>
+            </div>
                 <div class="perfume-section">
                     <div class="perfume-section-body">
-
                         <img src="images/mecDuxi2.png" alt="image" class="perfume-section-body-img2">
                     </div>
                     <div class="perfume-section-footer">
@@ -392,11 +398,11 @@
                         </div>
                         <h4>Аль Рехаб Делайтфул 6 мл</h4>
                         <p>Al-Rehab Perfumes, 6 мл</p>
-                        <div class="star"></div>
+                        <div class="star"><img src="images/stars.png" alt="icon"></div>
                     </div>
                 </div>
             </div>
-            <div class="perfume-button"><button>Больше товаров</button></div>
+            <div class="perfume-button"><button>Больше товаров <span>></span></button></div>
             <div class="perfume-cosmetic">
                 <div class="perfume-cosmetic-head">
                     <h3>Косметика</h3>
@@ -411,6 +417,7 @@
                             <span>Malak Bio</span> <p>x</p>
                         </div>
                     </div>
+                    <button class="perfume-discharge">x Сбросить фильтры</button>
                     <div class="perfume-head-filter">Фильтры ></div>
                 </div>
                 <div class="perfume-cosmetic-filter">
@@ -445,7 +452,7 @@
                         </div>
                         <h4>Аль Рехаб Делайтфул 6 мл</h4>
                         <p>Al-Rehab Perfumes, 6 мл</p>
-                        <div class="star"></div>
+                        <div class="star"><img src="images/stars.png" alt="icon"></div>
                     </div>
                 </div>
                 <div class="perfume-section">
@@ -462,7 +469,7 @@
                         </div>
                         <h4>Аль Рехаб Делайтфул 6 мл</h4>
                         <p>Al-Rehab Perfumes, 6 мл</p>
-                        <div class="star"></div>
+                        <div class="star"><img src="images/stars.png" alt="icon"></div>
                     </div>
                 </div>
                 <div class="perfume-section">
@@ -489,7 +496,7 @@
                         </div>
                         <h4>Аль Рехаб Делайтфул 6 мл</h4>
                         <p>Al-Rehab Perfumes, 6 мл</p>
-                        <div class="star"></div>
+                        <div class="star"><img src="images/stars.png" alt="icon"></div>
                     </div>
                 </div>
                 <div class="perfume-section">
@@ -507,11 +514,11 @@
                         </div>
                         <h4>Аль Рехаб Делайтфул 6 мл</h4>
                         <p>Al-Rehab Perfumes, 6 мл</p>
-                        <div class="block1-star"></div>
+                        <div class="star"><img src="images/stars.png" alt="icon"></div>
                     </div>
                 </div>
             </div>
-            <div class="perfume-button"><button>Больше товаров</button></div>
+            <div class="perfume-button"><button>Больше товаров <span>></span></button></div>
 
         </section>
         <section class="mailing">
@@ -519,7 +526,7 @@
                 <span>20%</span> <br> и получите подарок уже в первом заказе</h3>
             <form action="" class="form-cupon">
                 <label for="email">Ваш E-mail</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" placeholder="Введите E-mail">
             </form>
             <div class="cupon-button">
                 <button style="margin-left: 0">Подписаться</button>
@@ -530,7 +537,7 @@
         <footer>
             <div class="footer-background">
                 <div class="footer-line">
-                    <div class="footer-block1">
+                    <div class="footer-left">
                         <div class="head-title-left footer-logo">
                             <img src="images/footer-logo.png" alt="image">
                             <div class="head-title-left-text">
@@ -545,8 +552,8 @@
                             <li><a href="#">Блог</a></li>
                         </ul>
                     </div>
-                    <div class="footer-block2">
-                        <div class="footer-block2-head">
+                    <div class="footer-center">
+                        <div class="footer-center-head">
                             <img src="images/footer-icon1.png" alt="image">
                             <div>+7 (999) 133-21-83</div>
                             <img src="images/footer-icon2.png" alt="icon">
@@ -564,17 +571,17 @@
                         </div>
                         <p>Посмотреть на карте</p>
                     </div>
-                    <div class="footer-block3">
+                    <div class="footer-right">
                         <p>Акции и скидки для пользователей
                             наших социальных сетей</p>
-                        <div class="footer-block3-img">
-                            <img src="images/footer-vk.png" alt="icon">
-                            <img src="images/footer-insta.png" alt="icon">
-                            <img src="images/footer-fb.png" alt="icon">
-                            <img src="images/footer-odno.png" alt="icon">
+                        <div class="footer-right-img">
+                            <div> <img src="images/footer-vk.png" alt="icon"></div>
+                            <div><img src="images/footer-insta.png" alt="icon"></div>
+                            <div> <img src="images/footer-fb.png" alt="icon"></div>
+                            <div> <img src="images/footer-odno.png" alt="icon"></div>
                         </div>
                         <button>
-                            <a href="#">Вверх</a>
+                            <a href="#">Вверх</a> <span>></span>
                         </button>
                     </div>
                 </div>
